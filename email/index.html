@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            align-items: center;
+            color:black;
+            padding: 2%;
+            
+
+        }
+        body{
+            background: #e0e0e0;
+        }
+        section{
+            max-width: 800px;
+            background:rgb(231, 223, 223);
+            padding: 0;
+            margin: 20px auto;
+            padding: 20px;
+            color: #a83f3f;
+            box-shadow: 0 0 10px rgba(67, 67, 67, 0.1);
+            box-shadow:0 4px 8px rgba(36, 35, 35, 0.1);
+        }
+        .header{
+            display: block;
+        }
+        .header h1{
+            background:#a83f3f;
+            font-family:sans-serif;
+            color: #e6e4e4; 
+            text-align: center;
+            font-size: 50px;
+            border-radius: 2px 10px 2px  10px;
+            box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .main_container{
+            display: flex;
+            align-items: center;
+        }
+        .box1{
+            height: 300px;
+        }
+        .table{
+            background: #000000;
+            border-radius: 2px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .table h2{
+            color: rgb(247, 237, 237);
+            font-family: cursive;
+        }
+        .content{
+            text-align: start;
+        }
+        .content h4{
+            color: green;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .content h4:hover{
+            text-decoration: underline;
+        }
+
+        .box2{
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+        .box2 .table{
+            
+            align-items: center;
+        }
+        .content1{
+            display: flex;
+            flex-direction: column;
+        }
+        .content1 p{
+            text-align: left;
+            margin-top: 10px;
+            font-family: monospace;
+        }
+        .content1 p b{
+            color: orangered;
+        }
+        .btn{
+            margin-top: 20px;
+        }
+        .btn button{
+            width: 100px;
+            height: 30px;
+            border: none;
+            background: green;
+            color: white;
+            border-radius: 5px;
+        }
+        a{
+            color: plum;
+        }
+        footer{
+            border-radius: 30px;
+            background: #a83f3f;
+            box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+
+        }
+        .icons{
+            text-align: center;
+        }
+        .icons img{
+            margin-left: 10px;
+            border-radius: 30px;
+            background: #a83f3f;
+            box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .line{
+            display: flex;
+            padding:20px ;
+            justify-content: center;
+            
+        }
+        .line a{
+            text-align: center;
+            color: #fff;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+
+
+        @media screen and (max-width:430px) {
+            section{
+                overflow: scroll;
+            }
+            .main_container{
+            margin-top: 35px;
+          }
+          .line{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+       
+
+            
+        }
+
+        @media screen and (max-width:430px) {
+            .header h1{
+                overflow: hidden;
+                font-size: 40px;
+
+            }
+            .main_container{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-top: 20px;
+            }
+            .box2{
+                margin-top: 65px;
+            }
+            .line{
+                padding: 10px;
+                display: block;
+            }
+        }
+    
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="header">
+            <h1>
+                Freelancer.
+            </h1>
+            <p>Hi Steve,</p>
+            <p>
+                Here are the latest projects matching your <b>skills</b>
+            </p>
+        </div>
+
+        <div class="main_container">
+
+            <div class="box1">
+                <div class="table">
+                    <h2>
+                        PROJECT DESCRIPTION.
+                    </h2>
+    
+                </div>
+    
+                <div class="content">
+                    <h4>
+                        new HTML Pages For Admins --2
+                    </h4>
+                    <p>
+                        colors - white and blue, Bootstrap 5.3 based 1. Login 2. A page to show records.
+                        There will be a total of 3 collumns. There will be a button with each record, upon 
+                        clicking will show 4 fields in modal div. We need search cri... <a href="">See more</a>
+                    </p>
+                    <p>
+                        <b>Skills: </b> Graphic Design| HTML| HTML 5: PSD to HTML
+                    </p>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="table">
+                    <h2>
+                        BUDGET 
+                    </h2>
+                </div>
+                <div class="content1">
+                    <p>
+                        <b>
+                            $1 - $5 USD /hr
+                        </b>
+                    </p>
+                    <div class="btn">
+                        <button>Bid now</button>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+
+         </div>
+
+                 <div class="main_container">
+
+            <div class="box1">
+                <div class="table">
+                    <h2>
+                        PROJECT DESCRIPTION.
+                    </h2>
+    
+                </div>
+    
+                <div class="content">
+                    <h4>
+                        Experienced React JS Developer for AI Projects.
+                    </h4>
+                    <p>
+                        I am searching for a highly Experienced React JS developer who can aid in the development of Ai-based projects. 
+                        Specificaly I mam imtrested in finding someone who has:- Atleast 8 years of experience working with.... See morew <a href="">See more</a>
+                    </p>
+                    <p>
+                        <b>Skills: </b> CSS|Full Stack Developer| HTML 5| JavaScript | Node Js.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="table">
+                    <h2>
+                        BUDGET 
+                    </h2>
+                </div>
+                <div class="content1">
+                    <p>
+                        <b>
+                            $1805 - $3008 USD /hr
+                        </b>
+                    </p>
+                    <div class="btn">
+                        <button>Bid now</button>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+
+         </div>
+
+                 <div class="main_container">
+
+            <div class="box1">
+                <div class="table">
+                    <h2>
+                        PROJECT DESCRIPTION.
+                    </h2>
+    
+                </div>
+    
+                <div class="content">
+                    <h4>
+                        Complete Shopify Blog post Configuration
+                    </h4>
+                    <p>
+                        I have a dummy shopify website mand need to configure the looks of the blog post page. 
+                    </p>
+                    <p>
+                        <b>Skills: </b> Shopify| HTML| HTML 5|  Shopify templates| Web Design.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="table">
+                    <h2>
+                        BUDGET 
+                    </h2>
+                </div>
+                <div class="content1">
+                    <p>
+                        <b>
+                            $9 - $18 USD /hr
+                        </b>
+                    </p>
+                    <div class="btn">
+                        <button>Bid now</button>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+
+         </div>
+
+                 <div class="main_container">
+
+            <div class="box1">
+                <div class="table">
+                    <h2>
+                        PROJECT DESCRIPTION.
+                    </h2>
+    
+                </div>
+    
+                <div class="content">
+                    <h4>
+                        World Global Information Sharing Site.
+                    </h4>
+                    <p>
+                     As an organization dedicated to sharing vital educaton and news to the general public, we're
+                      on the hunt for the perfect web developer to create our world global site.
+                      Youll help us build an engaging platform where information ...<a href="">See more</a>
+                    </p>
+                    <p>
+                        <b>Skills: </b> Graphic Design| HTML| HTML 5| Content writing.| PHP 
+                    </p>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="table">
+                    <h2>
+                        BUDGET 
+                    </h2>
+                </div>
+                <div class="content1">
+                    <p>
+                        <b>
+                            $15 - $25 USD /hr
+                        </b>
+                    </p>
+                    <div class="btn">
+                        <button>Bid now</button>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+
+         </div>
+
+                 <div class="main_container">
+
+            <div class="box1">
+                <div class="table">
+                    <h2>
+                        PROJECT DESCRIPTION.
+                    </h2>
+    
+                </div>
+    
+                <div class="content">
+                    <h4>
+                        Automation System for Metamask Functions.
+                    </h4>
+                    <p>
+                       I'm seeking a talented developer who can help with the automation of various Metamask functions 
+                       This includes, but is not limited to:- Transaction signing, 
+                       Add and switch accounts - Network switching the main goal .... <a href="">See more</a>
+                    </p>
+                    <p>
+                        <b>Skills: </b> Java | JavaScript| Python| UNIX
+                    </p>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="table">
+                    <h2>
+                        BUDGET 
+                    </h2>
+                </div>
+                <div class="content1">
+                    <p>
+                        <b>
+                            $10 - $30 USD /hr
+                        </b>
+                    </p>
+                    <div class="btn">
+                        <button>Bid now</button>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+
+         </div>
+
+                 <div class="main_container">
+
+            <div class="box1">
+                <div class="table">
+                    <h2>
+                        PROJECT DESCRIPTION.
+                    </h2>
+    
+                </div>
+    
+                <div class="content">
+                    <h4>
+                        Experienced Back-end Java Developer Needed
+                    </h4>
+                    <p>
+                       I am in need of an experienced Bacj-end developer nwho has thorough understanding
+                       and capability in analysing Java characteristics. Specifically, i'm 
+                       looking for someone with advanced skills and experience in JVM.....<a href="">See more</a>
+                    </p>
+                    <p>
+                        <b>Skills: </b> Google Chrome| Java| JavaScript| Software Architecture.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="table">
+                    <h2>
+                        BUDGET 
+                    </h2>
+                </div>
+                <div class="content1">
+                    <p>
+                        <b>
+                            $450 - $945 USD /hr
+                        </b>
+                    </p>
+                    <div class="btn">
+                        <button>Bid now</button>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+
+         </div>
+
+         <footer>
+            <div class="icons">
+                <img src="/images/facebook.png" alt="" width="20px">
+                <img src="/images/twitter.png" alt="" width="20px">
+                <img src="/images/phone.png" alt="" width="20px">
+                <img src="/images/whatsapp.png" alt=" " width="20px">
+            </div>
+            
+            <div class="line">
+                <a href="">Usubscribe </a>
+                <a href="">Customer Service </a>
+                <a href="">Visit online </a>
+                <a href="">Learn more </a>
+
+            </div>
+
+         </footer>
+
+      
+    
+
+    </section>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
